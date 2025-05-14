@@ -26,8 +26,8 @@ The application consists of two main components:
 ## Prerequisites
 
 - Python 3.12+
-- Pinecone API key
-- Groq API key
+- Pinecone API key [(get it here)](https://docs.pinecone.io/guides/projects/manage-api-keys)
+- Groq API key [(get it here)](https://console.groq.com/keys)
 
 ## Installation
 
