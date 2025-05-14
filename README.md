@@ -31,10 +31,7 @@ The application consists of two main components:
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd Langchain-RAG
+1. Clone the repository
 
 2. (Optional) Create a virtual environment:
    ```bash
