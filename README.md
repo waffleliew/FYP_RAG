@@ -1,6 +1,6 @@
 # Langchain RAG Pipeline
 
-A single LLM RAG (Retrieval-Augmented Generation) pipeline built with Langchain, Pinecone, and Streamlit. This application allows you to upload documents, store them in a vector database, and query them using natural language.
+A single LLM RAG (Retrieval-Augmented Generation) pipeline built with Langchain, Pinecone, and Streamlit. This application allows you to upload documents, store them in a vector database, and query them using natural language. It serves as a prototype for building a more robust RAG system later on.
 
 ## Features
 
@@ -47,3 +47,6 @@ The application consists of two main components:
 5. Run the Streamlit app:
    ```bash
    streamlit run app.py      
+6. Specify a Unique Index Name in the UI to create a new index on Pinecone. (Note: If you want to use an existing index, specify here, and the app will load it from Pinecone instead of creating a new one.)
+7. Upload a document or input text in the UI. (Note: Uploading a document or text will overwrite any existing data in the index.) 
+8. Start Querying about your Documents!.
