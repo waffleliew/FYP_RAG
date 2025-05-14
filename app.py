@@ -10,7 +10,6 @@ load_dotenv()
 # Set page configuration
 st.set_page_config(
     page_title="RAG Agent with Pinecone",
-    page_icon="🤖",
     layout="wide"
 )
 
